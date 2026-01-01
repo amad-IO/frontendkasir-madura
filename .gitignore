@@ -1,0 +1,90 @@
+# ========================================
+# FILE MILIK TEMAN - TIDAK DI-PUSH KE GITHUB
+# ========================================
+
+# Alif (Tambah Pengguna, Tambah Toko) - 10 files
+lib/data/models/Kasir.dart
+lib/data/models/toko.dart
+lib/data/services/toko_service.dart
+lib/data/services/user_service.dart
+lib/state/kasir_controller.dart
+lib/state/toko_controller.dart
+lib/ui/pages/TambahKasir.dart
+lib/ui/pages/popupTambahToko.dart
+lib/ui/pages/TambahToko.dart
+lib/ui/pages/tambahPenggunaPage.dart
+
+# Umar (Tambah & Edit Produk) - 5 files
+lib/data/models/product.dart
+lib/data/services/product_service.dart
+lib/state/product_controller.dart
+lib/ui/pages/TambahEditProduk.dart
+lib/ui/pages/TambahProdukPage.dart
+
+# Chelsy (Login, Signup, Dashboard) - 10 files
+lib/data/models/login_request.dart
+lib/data/models/login_response.dart
+lib/data/models/signup_response.dart
+lib/data/models/user_request.dart
+lib/data/services/auth_service.dart
+lib/data/services/signup_service.dart
+lib/ui/pages/onBoarding.dart
+lib/ui/pages/LoginPage.dart
+lib/ui/pages/registerPage.dart
+lib/ui/pages/dashboardPage.dart
+
+# Aisyah (Laporan) - 5 files
+lib/data/models/laporan_harian.dart
+lib/data/models/laporan_item.dart
+lib/data/models/laporan_transaksi.dart
+lib/data/services/laporan_service.dart
+lib/ui/pages/laporanPenjualan.dart
+
+# ========================================
+# STANDARD FLUTTER IGNORES
+# ========================================
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
